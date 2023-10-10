@@ -5,8 +5,9 @@ body{
 }
 
 .menu-principal{
+    width: 100%;
     background-color: #000000;
-    height: 60px;
+    height: 80px;
 
 }
 main {
@@ -14,10 +15,24 @@ main {
     width: 980px;
     float: left;
     position: relative;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-right: 100px;
+    
     
 }
 img{
-    height: 60px;
+    height: 80px;
+}
+
+
+
+.logo{
+  /* aqui pode ser feita qualque alteração no logo da tela inicial*/
+   
+}
+.redes-sociais ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+
 }
