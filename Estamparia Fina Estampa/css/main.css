@@ -21,14 +21,17 @@ main {
     
 }
 img{
-    height: 80px;
+    height: 60px;
 }
 
 
 
 .logo{
   /* aqui pode ser feita qualque alteração no logo da tela inicial*/
-   
+  float: left; 
+  width: 70%;
+  padding: 0px;
+
 }
 .redes-sociais ul li{
     display: inline-block;
