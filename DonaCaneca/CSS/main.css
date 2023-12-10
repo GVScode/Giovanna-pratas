@@ -20,6 +20,22 @@ body{
     margin: 0 auto;
 }
 
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:pink;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px 0px 8px rgb(169, 136, 141);
+}
+
+
 /* ESTILO DO CABEÇALHO*/
 header{
     padding: 40px 4%;
@@ -49,16 +65,6 @@ header nav ul li{
     display: inline-block;
     padding: 0 40px;
 }
-header .btn-contato button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color:pink;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    box-shadow: 0px 0px 8px rgb(169, 136, 141);
-}
 
 img{
     margin-top: px;
@@ -84,6 +90,9 @@ header nav ul li:hover{
 }
 
 /* ESTILO TOPO DO SITE*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
 
 
     main section div h1 span{
@@ -99,8 +108,10 @@ header nav ul li:hover{
     .topo-do-site h1{
         color: #ce9d9d;
         font-size: 80px;
+        line-height: 100px;
+
     }
-    section.topo-do-site .interface{
-       
-        
-    }
+  .topo-do-site .txt-topo-site p{
+    color: black;
+    margin: 15px 0px;
+  }
