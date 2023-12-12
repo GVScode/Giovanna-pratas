@@ -34,8 +34,20 @@ body{
     cursor: pointer;
     box-shadow: 0px 0px 8px rgb(169, 136, 141);
 }
+.btn-contato button:hover{
+    box-shadow: 0px 0px 0px pink;
+    cursor: pointer;
+    transition: 0.5s;
+}
 
-
+h2.titulo{
+    color: pink;
+    font-size: 38px;
+    text-align: center;
+}
+h2.titulo span{
+    color: black
+}
 /* ESTILO DO CABEÇALHO*/
 header{
     padding: 40px 4%;
@@ -94,7 +106,6 @@ section.topo-do-site{
     padding: 40px 4%;
 }
 
-
     main section div h1 span{
         color: pink;
         width: 1px;
@@ -112,6 +123,54 @@ section.topo-do-site{
 
     }
   .topo-do-site .txt-topo-site p{
+    color: blacl;
+    margin: 70px 0px;
+  }
+
+  .topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+  }
+  /*ESTILO DAS ESPECIALIDADES*/
+
+  section.especialidades{
+    padding: 40px 4%;
+
+  }
+  section.especialidades .flex{
+    gap: 20px;
+  }
+  .especialidades .especialidades-box{
+
     color: black;
-    margin: 15px 0px;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 85px;
+    transition: 1.0s;
+
+  }
+  .especialidades .especialidades-box:hover{
+    transform: scale(1.0);
+    box-shadow: 0 0 8px rgb(211, 172, 179);
+  }
+
+  .especialidades .especialidades-box i{
+    font-size: 70px;
+    color: pink;
+
+  }
+  .especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px; 0;
+
+
   }
