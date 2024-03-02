@@ -3,6 +3,9 @@ body{
     height: 100%;
     margin: 0% auto;
 }
+ul {
+    padding: 0px !important;
+}
 
 
 .menu-principal{
@@ -41,6 +44,49 @@ main{
 }
 .header-2{
     background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+    ;
+}
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid pink;
+}
+.menu ul li {
+    display: inline-block;
+    color: pink;
+    margin-left: 15px;
+}
+.menu ul li a{
+    color: pink;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.menu{
+    width:70%;
+    float: left;
+}
+.busca{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+.busca input{
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    height: 23px;
+    padding: 5px;
+    width: 190px;
+    margin-top: 8px;
+    border: 1px solid pink;
+    border-radius: 2px;
+    background-position: 92% ;
+    background-size: 20px;
+}
+.col-100{
     width: 100%;
-    border-bottom: 3px solid white;
+    float: left;
+    position: relative;
 }
