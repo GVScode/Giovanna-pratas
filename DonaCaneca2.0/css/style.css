@@ -55,8 +55,25 @@ main{
 }
 .menu ul li {
     display: inline-block;
-    color: pink;
+    color: black;
     margin-left: 15px;
+    
+}
+.menu ul li:hover{
+    border-bottom: px solid rgb(78, 31, 31);
+
+}
+.menu ul li a:hover {
+    color: rgb(78, 31, 31);
+    border-bottom: 1px solid rgb(78, 31, 31) ;
+
+
+}
+.menu ul li a {
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 .menu ul li a{
     color: pink;
