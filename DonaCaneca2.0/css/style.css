@@ -31,7 +31,8 @@ main{
 }
 .redes-sociais ul li{
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-right: 1px;
     display: inline-block;
     float: left;
     list-style: none;
@@ -60,12 +61,12 @@ main{
     
 }
 .menu ul li:hover{
-    border-bottom: px solid rgb(78, 31, 31);
+    border-bottom: 2px solid rgb(78, 31, 31);
 
 }
 .menu ul li a:hover {
     color: rgb(78, 31, 31);
-    border-bottom: 1px solid rgb(78, 31, 31) ;
+    border-bottom: 3px solid rgb(78, 31, 31) ;
 
 
 }
@@ -107,3 +108,16 @@ main{
     float: left;
     position: relative;
 }
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/proximo.png);
+    top: 40%;
+    left: 0%;
+}
+  
