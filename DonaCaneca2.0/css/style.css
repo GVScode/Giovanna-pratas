@@ -17,7 +17,7 @@ ul {
 img{
     height: 90px;
 }
-main{
+main, .content{
 
     margin: 0 auto;
     width: 980px;
@@ -34,7 +34,6 @@ main{
     margin-left: 50px;
     margin-right: 1px;
     display: inline-block;
-    float: left;
     list-style: none;
 
 }
@@ -91,6 +90,7 @@ main{
     float: right;
     text-align: center;
 }
+/* INICIO Busca logo acima do primeiro Carrocel*/
 .busca input{
     background-image: url(../img/search.png);
     background-repeat: no-repeat;
@@ -103,11 +103,15 @@ main{
     background-position: 92% ;
     background-size: 20px;
 }
+/* FIM Busca logo acima do primeiro Carrocel*/
+
 .col-100{
     width: 100%;
     float: left;
     position: relative;
 }
+
+ /* INICIO Botão de seta para a esquerda no primeiro carrocel*/
 button.slick-prev{
     font-size: 0px;
     border: none;
@@ -116,11 +120,14 @@ button.slick-prev{
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url(../img/seta-esquerda.png);
-    top: 40%;
+    background-image: url(../img/seta-esquerda\ \(2\).png);
+    top: 50%;
     left:3%;
 }
-  
+ /*FIM Botão de seta para a esquerda no primeiro carrocel*/ 
+
+
+  /*INICIO Botão de seta para a direita no primeiro carrocel*/
 button.slick-next{
     font-size: 0px;
     border: none;
@@ -129,11 +136,23 @@ button.slick-next{
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url(../img/seta-direita.png);
-    top: 40%;
+    background-image: url(../img/seta-Direita\ \(2\).png);
+    top: 50%;
     right: 3%;
 }
-.slider-principal{
+/* FIM Botão de seta para a direita no primeiro carrocel*/
+
+
+.slick-list{
+    width: 100%!important;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+
+
+/*PRimeira tentativa de fazer os botões do primeiro Carrocel*/
+/*.slider-principal{
     width: 100%!important;
 }
 ul.slick-dots li button{
@@ -148,3 +167,60 @@ ul.slick-dots li button{
 ul.slick-dots li.slick-active{
     background-color: pink;
 }
+.slick-list{
+    width: 100%!important;
+}
+.slick-initialized{
+    overflow: hidden;
+}
+*/
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid white;
+    width: 26px;
+    height: 26px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/* inicio Botôes redondos do primeiro carrocel*/
+.slick-dots {
+margin: 0 auto;
+width: 50%;
+position: absolute;
+left: 45%;
+top: 550px; ;
+
+}
+li.slick-active button {
+  background-color: pink;
+}
+
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
+}
+/* fim Botôes redondos do primeiro carrocel*/
+
+/* Inicio Estilização do texto abaixo do primeiro carrocel*/
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque h1{
+    color: gray;
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+.texto-destaque h1 strong{
+    color: black;
+    font-size: 40px;
+}
+
+.texto-destaque p{
+    color: gray;
+    font-size: 15px;
+
+}
+/*fim Estilização do texto abaixo do primeiro carrocel */
