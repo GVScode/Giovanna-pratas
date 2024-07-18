@@ -11,14 +11,14 @@ ul {
 .menu-principal{
 
     width: 100%;
-    background-color: rgb(250, 233, 235);
+    background-color: rgb(185, 151, 157);
     height: 90px;
 }
 img{
     height: 90px;
 }
 main, .content{
-
+    
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -106,6 +106,7 @@ main, .content{
 /* FIM Busca logo acima do primeiro Carrocel*/
 
 .col-100{
+    
     width: 100%;
     float: left;
     position: relative;
@@ -232,20 +233,53 @@ li.slick-active button {
 .texto-destaque p{
     color: gray;
     font-size: 15px;
+    text-align: center;
 
 }
 /*fim Estilização do texto abaixo do primeiro carrocel */
 
 /*INICIO Estilização do primeiro trio de imagens */
 .col-3{
-    padding-left: 15px;
+    padding-left: 14px;
     padding-right: 15px;
     width: 29%;
     float: left;
     position: relative;
 }
+.col-3 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+.col-3 p{
+    text-align:center;
+    margin-bottom: 33px;
+
+   
+}
+
 /*FIM Estilização do primeiro trio de imagens */
 /* INICIO estilização do primeiro bloco de texto*/
+.bloco-imagem img{
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+.bloco-imagem{
+    height: 300px;
+    border: 1px solid rgb(7, 0, 0);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    border-radius: 3%;
+    
+}
+
+.bloco-imagem b, p {
+    text-align: left;
+
+}
+
 .bloco-texto{
     float: left;
     margin-top: 3em;
@@ -258,13 +292,14 @@ h3{
 .bloco-imagens-texto {
     background-color: #eeeeee;
 }
+/*Essa parte do css diz respeito a exposição das canecas*/
 .bloco-imagens-texto:before {
     width: 100%;
     display: inline-block;
     content: '';
-    height: 52px;
+    height: 25px;
     background: #ffffff;
-    background-image: url('../img/setinha.png');
+    background-image: url('../img/');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -275,6 +310,9 @@ h3{
     height: 70px;
     background: #eeeeee;
 } 
+/*Fim da exposição das canecas*/
+
+/*Inicio do primeiro footer onde vai os patrocinadores "Marcas"*/
 .col-4 {
     float: left;
     width: 25%;
@@ -285,11 +323,13 @@ cursor: pointer;
  margin: 0 auto;
  padding-top: 1em;
  vertical-align: middle;
+ 
 }
 .col-4 img:hover {
     margin-top: 10px!important;
     position: relative!important;
 }
+/*Fim do primeiro*/
 
 .bloco-logos {
     height: 170px;
@@ -305,15 +345,14 @@ cursor: pointer;
 
 .footer {
     background-image: url('../img/footer.png');
-    color: #ffffff;
+    color: #110505;
 }
 
 .footer-2 {
-    background-image: url('../img/footer2.png');
-    color: #c1c1c1;
+    background-color: #080202;
+    color: #ffffff;
     height: 90px;
 }
-
 
 .footer p {
     width: 90%;
@@ -322,6 +361,7 @@ cursor: pointer;
 
 .footer-2 p {
     padding: 10px;
+    text-align:left;
 }
 
 .clock {
@@ -357,3 +397,9 @@ cursor: pointer;
 .telefoneico:before {
     background-image: url('../img/telefoneico.png');
 }  
+
+.col-3 bloco-texto{
+    width: 10px;
+
+}
+
