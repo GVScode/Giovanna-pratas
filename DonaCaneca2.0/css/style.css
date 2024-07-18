@@ -250,6 +250,7 @@ li.slick-active button {
     width: 200px;
     height: 200px;
     border-radius: 30px;
+    
 }
 .col-3 p{
     text-align:center;
@@ -264,8 +265,15 @@ li.slick-active button {
     margin: 0 auto;
     width: 50%;
     height: auto;
+    
 }
-.bloco-imagem{
+
+ .bloco-texto .bloco-imagem img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgb(211, 172, 179);
+
+}
+ .bloco-imagem{
     height: 300px;
     border: 1px solid rgb(7, 0, 0);
     padding-top: 15px;
@@ -284,6 +292,21 @@ li.slick-active button {
     float: left;
     margin-top: 3em;
 }
+.bloco-texto img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 10px;
+    }
+  }
+    
+
 
 /* INICIO estilização do primeiro bloco de texto*/
 h3{
