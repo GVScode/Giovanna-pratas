@@ -349,7 +349,7 @@ cursor: pointer;
  
 }
 .col-4 img:hover {
-    margin-top: 10px!important;
+    margin-top: 1px!important;
     position: relative!important;
 }
 /*Fim do primeiro*/
